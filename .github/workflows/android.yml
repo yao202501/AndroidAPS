@@ -34,3 +34,6 @@ jobs:
       with:
         name: aaps
         path: app/build/outputs/apk/full/release
+    - name: Show Gradle build logs
+      run: cat app/build/reports/build.log
+
